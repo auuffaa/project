@@ -1,8 +1,8 @@
 <?php
-$i=1;
-$belanja =["aerostreet","compass","ortus","specs"];
+
+$daftar =["aerostreet","compass","ortus","specs"];
  echo "daftar koleksi </br>";
- foreach ($belanja as $DaftarKoleksi) {
-    echo $i++ . "." $DaftarKoleksi . "</br>";
+ foreach ($daftar as $DaftarKoleksi) {
+    echo "-".$DaftarKoleksi . "</br>";
 }
 ?>
